@@ -1,0 +1,16 @@
+Version 0.7-0
+
+- Included functionality for more distance measures: Either calculating different distances from a matrix (the ones in dist()) or supplying an object inheriting from dist or supplying a symmetric distance matrix (which is then coerced to a dist object). 
+
+Version 0.6-0
+
+- Updated version number to 0.6-0. Added dmax argument.
+
+Version 0.1-0
+
+- Updated version number.
+
+Version 0.0-35
+
+- Forked the cordillera infrastructure from stops into this package.
+
