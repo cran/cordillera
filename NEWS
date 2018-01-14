@@ -1,6 +1,20 @@
+Version 0.8-0
+
+- CRAN Release.
+
+
+Version 0.7-2
+
+- Added possibility to not only center and scale X, but also to only scale X with no centering with rmsq and sd. TRUE and 1 is now center and scale, 2 is now scaling each column individually but no centering, 3 is now scaling all columns by the maximum column sd, 4 is now scaling all columns by maximum column rmsq. FALSE or 0 is no scaling.    
+
+Version 0.7-1
+
+- Fixed citation info and help file typos. Added another example. 
+
+
 Version 0.7-0
 
-- Included functionality for more distance measures: Either calculating different distances from a matrix (the ones in dist()) or supplying an object inheriting from dist or supplying a symmetric distance matrix (which is then coerced to a dist object). 
+- Included functionality for more distance measures: Either calculating different distances from a matrix (the ones in dist()) or supplying an object inheriting from dist or supplying a symmetric distance matrix (which is then coerced to a dist object). CRAN version. 
 
 Version 0.6-0
 
