@@ -11,9 +11,6 @@ A package for calculating the OPTICS Cordillera. The package contains various fu
 The stops package provides these main functions:
 \itemize{
 \item cordillera() ... OPTICS Cordillera using dbscan OPTICS implementation
-
-\item e_cordillera()... ... OPTICS Cordillera using ELKI's OPTICS implementation
-\item e_optics() ... An interface to ELKI's implementation of OPTICS
 }
 
 Methods: 
@@ -21,11 +18,10 @@ For most of the objects returned by the high-level functions S3 classes and meth
 
 References:
 \itemize{
-\item Rusch, T., Hornik, K., & Mair, P. (2017) Assessing and quantifying clusteredness: The OPTICS Cordillera, Journal of Computational and Graphical Statistics.
-\url{http://dx.doi.org/10.1080/10618600.2017.1349664}
+\item Rusch, T., Hornik, K., & Mair, P. (2018) Assessing and quantifying clusteredness: The OPTICS Cordillera, Journal of Computational and Graphical Statistics. 27 (1), 220-233. \doi{10.1080/10618600.2017.1349664}
 }
 
-Authors: Thomas Rusch
+Authors: Thomas Rusch 
 
 Maintainer: Thomas Rusch
 }
@@ -59,11 +55,4 @@ cres3d
 summary(cres3d)
 plot(cres3d)
 
-\donttest{
-#OPTICS in ELKI version
-ores<-e_optics(irisrep2d,minpts=10,epsilon=100)
-ores
-summary(ores)
-plot(ores)
-}
 }
